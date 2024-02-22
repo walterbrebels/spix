@@ -132,7 +132,7 @@ target_link_libraries(Spix
         Qt${SPIX_QT_MAJOR}::Gui
         Qt${SPIX_QT_MAJOR}::Quick
     PRIVATE
-        AnyRPC::anyrpc
+        anyrpc::anyrpc
 )
 
 #
